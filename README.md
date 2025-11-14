@@ -1,8 +1,12 @@
-2 PSes are contained here
+2 pses are contained here
 
-[# PS-1 DECIBLE DUEL](https://github.com/AdiJainS/Decible-Duel/blob/main/DECIBALDUEL.md)
+[# PS-1 DECIBLE DUEL](https://github.com/adijains/Decible-Duel/blob/main/DECIBALDUEL.md)
+
 NEED TO DESIGN AN ML MODEL WHICH CAN CLASSIFY SHORT AUDIO CLIPS INTO THEIR CORRECT CATEGORIES ON THE GIVEN DATASET 
 
-[# PS-2 GAN CONDITIONING FOR AUDIO SYNTHESIS](https://github.com/AdiJainS/Decible-Duel/blob/main/GAN.md)
+[# PS-2 GAN CONDITIONING FOR AUDIO SYNTHESIS](https://github.com/adijains/Decible-Duel/blob/main/GAN.md)
+
 NEED TO DESIGN AN ML MODEL CONTAINING DISCRIMINATOR AND GENERATOR TO GENERATE REALISTIC CATEGORY SPECIFIC SPECTOGRAMS AND ITS AUDIO SAMPLES
+
+
 
