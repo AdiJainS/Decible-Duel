@@ -48,7 +48,7 @@ Dropout - Helps preventing overfitting by randomly dropping neurons.
 
 flatten - convert all layers into dense layers
 
-### Implement data augmentation
+# Implement data augmentation
 
 Apply data augmentation techniques to the training data to increase its size and variability, which can help the model generalize better and reduce overfitting.
 
