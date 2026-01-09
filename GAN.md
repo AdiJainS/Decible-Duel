@@ -50,14 +50,14 @@ nn.ConvTranspose2d(256, 128, kernel_size=4, stride=2, padding=1), # -> 16x64
 
             nn.BatchNorm2d(128),
             nn.ReLU(),
-            nn.ConvTranspose2d(128, 64, kernel_size=4, stride=2, padding=1), # -> 32x128
+            nn.ConvTranspose2d(128, 64, kernel_size=4, stride=2, padding=1), 
             nn.BatchNorm2d(64),
             nn.ReLU(),
-            nn.ConvTranspose2d(64, 32, kernel_size=4, stride=2, padding=1), # -> 64x256
+            nn.ConvTranspose2d(64, 32, kernel_size=4, stride=2, padding=1), 
             nn.BatchNorm2d(32),
             nn.ReLU(),
-            nn.ConvTranspose2d(32, 1, kernel_size=4, stride=2, padding=1), # -> 128x512
-            nn.ReLU() # Use ReLU to match the log1p output range [0, inf)
+            nn.ConvTranspose2d(32, 1, kernel_size=4, stride=2, padding=1),
+            nn.ReLU() 
 
 ----- > this is a deconvolutional laters /upsampling layers which increase with each step from (8×32) up to (128×512),ConvTranspose2d doubles the height and width .
 BatchNorm2d ---- >Uses CNN to stabilize training.When generator applies transposed convoltion , the val inside feature map can vary , batch norm feature normalizes them , mean =0 variance = 1.
